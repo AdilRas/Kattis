@@ -6,11 +6,9 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     int n; cin >> n;
-    int sum = 0;
-    while(n--) {
-        int a; cin >> a;
-        if(a < 0) sum++;
+    for(int i = 1; i <= n; i++) {
+        int a, b; cin >> b >> a;
+        cout << i << " " << a + a * (1 + a) / 2 << endl;
     }
-    cout << sum << endl;
     return 0;
 }

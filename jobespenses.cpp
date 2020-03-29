@@ -9,7 +9,7 @@ int main() {
     int sum = 0;
     while(n--) {
         int a; cin >> a;
-        if(a < 0) sum++;
+        if(a < 0) sum += abs(a);
     }
     cout << sum << endl;
     return 0;

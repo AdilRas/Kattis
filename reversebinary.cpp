@@ -2,15 +2,17 @@
 
 using namespace std;
 
+
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     int n; cin >> n;
-    int sum = 0;
-    while(n--) {
-        int a; cin >> a;
-        if(a < 0) sum++;
+    int b = 0;
+    while(n > 0) {
+        b <<= 1;
+        if(n%2) b++;
+        n >>= 1;
     }
-    cout << sum << endl;
+    cout << b << endl;
     return 0;
 }
