@@ -36,7 +36,7 @@
             - 1 then i=1
             - 1 digit then i = 2
             - 2-9 digits then i = 3
-            - 10 or more then i = 4 (up to 10e10 - 1, but input never exceeds 1e6)
+            - 10 or more then i = 4 (up to 1e10 - 1, but input never exceeds 1e6)
 - Large Numbers
     - [Divide by 100](divideby100.cpp) [(Kattis)](https://open.kattis.com/problems/divideby100)
         - Process as a string. Insert decimal if needed. Watch for case where divisor > dividend.
