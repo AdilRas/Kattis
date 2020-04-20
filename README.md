@@ -15,7 +15,7 @@
     - [Mjehuric](mjehuric.cpp) [(Kattis)](https://open.kattis.com/problems/mjehuric)
         - Simulate a bubble sort.
 ## 3a. Complete Search
--Trivial
+- Trivial
     - [Nine Knights](nineknights.cpp) [(Kattis)](https://open.kattis.com/problems/nineknights)
         - Simple simulation. Check all knights and ensure there are 9 knights on the board.
 ## 3b. Divide and Conquer
