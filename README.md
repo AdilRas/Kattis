@@ -7,6 +7,8 @@
         - Simple simulation. Print "something is fishy" if a number appears out of order.
     - [Jolly Jumpers](jollyjumpers.cpp) [(Kattis)](https://open.kattis.com/problems/jollyjumpers)
         - Simple simulation. Maintain bool arrya to track which pairwise differences have been seen.
+    - [Speed Limit](speedlimit.cpp) [(Kattis)](https://open.kattis.com/problems/speedlimit)
+        - Nested loop to handle multiple cases.
 - Parsing
     - [Saving Daylight](savingdaylight.cpp) [(Kattis)](https://open.kattis.com/problems/savingdaylight)
         - Trivial input parsing.
