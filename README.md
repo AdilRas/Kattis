@@ -32,6 +32,10 @@
 - Topological Sort
     - [Pick Up Sticks](pickupsticks.cpp) [(Kattis)](https://open.kattis.com/problems/pickupsticks)
 ## 5. Math
+- Extended Euclidean Algorithm and Chinese Remainder Theorem
+    - [So You Like Your Food Hot?](soyoulikeyourfoodhot.cpp) [(Kattis)](https://open.kattis.com/problems/soyoulikeyourfoodhot)
+        - Multiply all inputs by 100 to convert to integers. Then run extended euclidean algorithm and find all solutions with positive (x,y).
+        - Watch for rounding error when casting 100*input to integers.
 - Formula from Observations
     - [Digits](digits.cpp) [(Kattis)](https://open.kattis.com/problems/digits)
         - Check the following 4 cases:
@@ -42,6 +46,10 @@
 - Large Numbers
     - [Divide by 100](divideby100.cpp) [(Kattis)](https://open.kattis.com/problems/divideby100)
         - Process as a string. Insert decimal if needed. Watch for case where divisor > dividend.
+- Prime Numbers
+    - [Pseudoprimes](pseudoprimes.cpp) [(Kattis)](https://open.kattis.com/problems/pseudoprime)
+        - If p is not prime AND a^p mod p == 1, then it's pseudoprime. Use modular exponentiation.
+
 ## 6. String Processing
 ## 7. Computational Geometry
 ## 8. Misc/Other
