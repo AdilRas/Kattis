@@ -31,6 +31,8 @@
 - Djikstra's Algorithm
     - [Flowery Trails](flowerytrails.cpp) [(Kattis)](https://open.kattis.com/problems/flowerytrails)
         - Note: Must keep track of parents of each vertex that is used in the set of shortest paths.
+    - [Get Shorty](getshorty.cpp) [(Kattis)](https://open.kattis.com/problems/getshorty)
+        - Note: path "length" is 1 - product of edge weights. We want to maximize in this case.
 - Topological Sort
     - [Pick Up Sticks](pickupsticks.cpp) [(Kattis)](https://open.kattis.com/problems/pickupsticks)
 ## 5. Math
@@ -53,5 +55,7 @@
         - If p is not prime AND a^p mod p == 1, then it's pseudoprime. Use modular exponentiation.
 
 ## 6. String Processing
+- KMP
+- Suffix Array & LCP Array
 ## 7. Computational Geometry
 ## 8. Misc/Other
