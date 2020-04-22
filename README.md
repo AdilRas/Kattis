@@ -47,7 +47,7 @@
     - [Divide by 100](divideby100.cpp) [(Kattis)](https://open.kattis.com/problems/divideby100)
         - Process as a string. Insert decimal if needed. Watch for case where divisor > dividend.
 - Prime Numbers
-    - [Pseudoprimes](pseudoprimes.cpp) [(Kattis)](https://open.kattis.com/problems/pseudoprime)
+    - [Pseudoprime](pseudoprime.cpp) [(Kattis)](https://open.kattis.com/problems/pseudoprime)
         - If p is not prime AND a^p mod p == 1, then it's pseudoprime. Use modular exponentiation.
 
 ## 6. String Processing
