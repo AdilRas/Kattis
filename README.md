@@ -25,6 +25,11 @@
 ## 3b. Divide and Conquer
 ## 3c. Greedy
 ## 3d. Dynamic Programming (DP)
+- Bitmask DP
+    - [Tri Tiling](tritiling.cpp) [(Kattis)](https://open.kattis.com/problems/tritiling)
+        - Consider how each state of a column can be built from previously filled columns using 2x1 tiles.
+        - Track all the partially filled states for each column. Answer is dp\[n\]\[7\] where 7 represents all 3 cells in the column are filled.
+        - No solution for odd numbered columns. Base case: dp\[0\]\[7\] = 1
 ## 4. Graph Problems
 - Bipartite Matching
     - [Absurdistan Roads III](absurdistan3.cpp) [(Kattis)](https://open.kattis.com/absurdistan3)
@@ -51,6 +56,8 @@
     - [Divide by 100](divideby100.cpp) [(Kattis)](https://open.kattis.com/problems/divideby100)
         - Process as a string. Insert decimal if needed. Watch for case where divisor > dividend.
 - Prime Numbers
+    - [Goldbach 2](goldbach2.cpp) [(Kattis)](https://open.kattis.com/problems/goldbach2)
+        - Precompute primes and use 2 pointer approach on list of primes to find pairs that sum to the given value.
     - [Pseudoprime](pseudoprime.cpp) [(Kattis)](https://open.kattis.com/problems/pseudoprime)
         - If p is not prime AND a^p mod p == 1, then it's pseudoprime. Use modular exponentiation.
 
